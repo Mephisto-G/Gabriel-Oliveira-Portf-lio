@@ -270,6 +270,9 @@ footer{                  /* Estilo rodapé */
         flex-direction: column;
         flex-wrap: wrap;
     }
+    
+      #sobre h1 {
+    font-size: 40px;
 }
 
 @media (max-width: 480px){      /* Vizualização para celular */
@@ -301,6 +304,7 @@ footer{                  /* Estilo rodapé */
     #sobre h1 {
     font-size: 30px;
 }
+
 
 
 
