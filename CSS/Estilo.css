@@ -270,5 +270,32 @@ footer{                  /* Estilo rodapé */
         flex-direction: column;
         flex-wrap: wrap;
     }
-
 }
+
+@media (max-width: 480px){      /* Vizualização para celular */
+     .container{
+        align-items: start;
+    }
+    #sobre {
+        align-self: center;
+        width: 100%;
+    }
+    nav {
+        right: -30px;
+    }
+    #formacao {
+     display: flex;
+     flex-direction: column;
+    }
+    #portfolio div {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap       
+    }
+
+    #projetos {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }   
+}
+
