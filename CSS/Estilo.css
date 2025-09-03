@@ -163,7 +163,6 @@ a:hover p {
    gap: 20px;
    width: 100%;
    justify-content: center;
-
 }
 
 .projetos {                    /* Portfólio */
@@ -252,6 +251,7 @@ footer{                  /* Estilo rodapé */
     }
     #sobre {
         align-self: center;
+        width: 100%;
     }
     nav {
         right: -30px;
@@ -260,9 +260,15 @@ footer{                  /* Estilo rodapé */
      display: flex;
      flex-direction: column;
     }
-    #portfolio {
+    #portfolio div {
+        width: 100%;
         flex-direction: column;
-        gap: 50px
+        flex-wrap: wrap       
+    }
+
+    #projetos {
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
 }
