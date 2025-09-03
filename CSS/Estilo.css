@@ -296,6 +296,10 @@ footer{                  /* Estilo rodapé */
     #projetos {
         flex-direction: column;
         flex-wrap: wrap;
-    }   
+    }
+
+    #sobre h1 {
+    font-size: 40px;
 }
+
 
