@@ -253,8 +253,13 @@ footer{                  /* Estilo rodapé */
         align-self: center;
         width: 100%;
     }
-    nav {
-        right: -30px;
+ nav {
+        right: -22px;
+        padding: 6px;
+    }
+
+    i {
+        font-size: 24px;
     }
     #formacao {
      display: flex;
@@ -304,6 +309,7 @@ footer{                  /* Estilo rodapé */
     #sobre h1 {
     font-size: 30px;
 }
+
 
 
 
